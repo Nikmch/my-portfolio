@@ -1,6 +1,6 @@
 Welcome to my personal Portfolio site.
 
-You can check out my live site at https://vercel.com/nikmch/my-portfolio/ERpxBhuNwjWpwS1PF53V9j56RCHZ
+You can check out my live site at https://my-portfolio-pearl-sigma-47.vercel.app/
 
 
 
