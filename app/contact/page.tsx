@@ -44,7 +44,7 @@ const Contact: FC = () => {
                     </a>
 
                     <div className="px-6 ">
-                        <a href="mailto:dennettmetalfab@outlook.com">nikimchenry@outlook.com</a>
+                        <a href="mailto:nikimchenry@outlook.com">nikimchenry@outlook.com</a>
 
                     </div>
 
