@@ -1,3 +1,14 @@
+Welcome to my personal Portfolio site.
+
+You can check out my live site at https://vercel.com/nikmch/my-portfolio/ERpxBhuNwjWpwS1PF53V9j56RCHZ
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
