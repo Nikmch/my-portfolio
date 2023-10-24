@@ -10,7 +10,7 @@ export default function Card (){
   
   <div className="grid lg:grid-cols-1 gap-6">
    
-          <div className="group  flex flex-col h-full  border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+          <div className="group  flex flex-col h-full  border border-gray-200 shadow-sm rounded-xl bg-neutral-800 border-gray-700 ">
             <div className="card  h-fit  flex flex-col justify-center items-center rounded-t-xl">
               <div className="mb-3 mt-3 mx-3 rounded-xl overflow-hidden">
         <Image   width="576" height="350" src="/dennettsitepic.png" alt="Dennett Metal Fabrication"/>
@@ -18,7 +18,7 @@ export default function Card (){
          </div>
             <div className="p-4 md:p-6 ">
        
-        <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:hover:text-white">
+        <h3 className="text-xl font-semibold text-gray-300 hover:text-white">
           Dennett Metal Fabrication
         </h3>
         <p className="mt-3 mb-3 text-gray-500">
@@ -51,7 +51,7 @@ export default function Card (){
   
 
     
-          <div className="group flex flex-col h-full border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+          <div className="group flex flex-col h-full border border-gray-200 shadow-sm rounded-xl bg-neutral-800 border-gray-700 ">
             
               <div className="card w-auto h-fit flex flex-col justify-center items-center rounded-t-xl">
                 <div className="mb-3 mt-3 mx-3 rounded-xl overflow-hidden">
@@ -63,7 +63,7 @@ export default function Card (){
               <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
 
               </span>
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-300 dark:hover:text-white">
+              <h3 className="text-xl font-semibold  text-gray-300 hover:text-white">
                 Note Keeper App
               </h3>
               <p className="mt-3 mb-3 text-gray-500">
