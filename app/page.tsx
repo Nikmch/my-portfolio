@@ -15,7 +15,7 @@ export default function Home() {
     return (
    
 
-      <div className=" py-10 bg-zinc-800">
+      <div className=" py-20 sm:py-20 md:py-16 lg:py-10 bg-zinc-800">
 
 
 
