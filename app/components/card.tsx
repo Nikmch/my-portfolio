@@ -10,7 +10,7 @@ export default function Card (){
   
   <div className="grid lg:grid-cols-1 gap-6">
    
-          <div className="group  flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+          <div className="group  flex flex-col h-full  border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
             <div className="card  h-fit  flex flex-col justify-center items-center rounded-t-xl">
               <div className="mb-3 mt-3 mx-3 rounded-xl overflow-hidden">
         <Image   width="576" height="350" src="/dennettsitepic.png" alt="Dennett Metal Fabrication"/>
@@ -51,7 +51,7 @@ export default function Card (){
   
 
     
-          <div className="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+          <div className="group flex flex-col h-full border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
             
               <div className="card w-auto h-fit flex flex-col justify-center items-center rounded-t-xl">
                 <div className="mb-3 mt-3 mx-3 rounded-xl overflow-hidden">
