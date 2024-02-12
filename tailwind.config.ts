@@ -1,22 +1,17 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-    'node_modules/preline/dist/*.js',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "node_modules/preline/dist/*.js",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        
-         
-      },
+      backgroundImage: {},
     },
   },
-  plugins: [
-    require('preline/plugin'),
-  ],
-}
-export default config
+  plugins: [require("preline/plugin")],
+};
+export default config;

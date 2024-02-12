@@ -1,23 +1,22 @@
-import './globals.css';
-import PrelineLoader from './components/preline-loader';
+import "./globals.css";
+import PrelineLoader from "./components/preline-loader";
 import Footer from "./components/footer";
 import Header from "./components/header";
 
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'My Portfolio',
-  description: '',
-}
+  title: "My Portfolio",
+  description: "",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -26,7 +25,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
-  )
+  );
 }
